@@ -1,245 +1,136 @@
-/* cores */
-/* cor 1 EADEDA */
-/* COR  2 998888 */
-/* COR 3 BFB8AD */
-/* COR 4 823329 */
-/* COR 5 8A3033 */
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #8A3033;
+}
+
 #css-web-garden {
     background-color: #BFB8AD;
     color: rgb(51, 51, 51);
     
 }
 
-#container {
-
-}
-
-.page-wrapper {
-
-}
-
 .intro {
     text-align: center;
     justify-content: center;
-}
-
-#jar-intro {
-
-}
-
-#jar-header {
-
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #998888;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 20px;
+    color: white;
 }
 
 .header {
-    background-color: #BFB8AD;
-    text-align: center;
-    justify-content: center;
+    background-color: #823329;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
     height: 100px;
-    box-shadow: 4px 2px 200px 20px black;
+    box-shadow: 4px 2px 200px 5px black;
     border-radius: 40px;
     width: 600px;
-}
-
-.summary {
-
-}
-
-#jar-summary {
-
+    margin-bottom: 100px;
 }
 
 .p1 {
-
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:double;
 }
 
 .p2 {
-
-}
-
-.preamble {
-
-}
-
-#jar-preamble {
-
-}
-
-.p3 {
-
-}
-
-.main {
-
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:dotted;
 }
 
 .supporting {
-
+    display: flex;
+    flex-direction: row;
 }
 
-#jar-supporting {
-
-}
-
-.explanation {
-
-}
-
-#jar-explanation {
-
+.explanation {    
+    text-align: center;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #998888;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    color: white;
+    max-width: 40%;
 }
 
 .participation {
-
-}
-
-#jar-participation {
-
+    text-align: center;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #998888;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    color: white;
+    max-width: 40%;
+    text-decoration:none;
 }
 
 .benefits {
-
-}
-
-#jar-benefits {
-
+    text-align: center;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #998888;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    color: white;
+    max-width: 40%;
+    text-decoration:none;
 }
 
 .requirements {
-
-}
-
-#jar-requirements {
-
-}
-
-.p4 {
-
+    text-align: center;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #998888;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    color: white;
+    max-width: 40%;
 }
 
 .footer {
-
-}
-
-#jar-footer {
-
-}
-
-.jar-validate-html {
-
-}
-
-.jar-validate-html {
-
-}
-
-.jar-validate-css {
-    
-}
-
-.jar-licente {
-
-}
-
-.jar-acessibility {
-
-}
-
-.sidebar{
-
-}
-
-#jar-link-list {
-
-}
-
-.wrapper {
-
-}
-
-.design-selection {
-
-}
-
-#jar-seleciton {
-
-}
-
-.select {
-
-}
-
-.design-name {
-
-}
-
-.designer-name {
-
-}
-
-.design-archives {
-
-}
-
-#jar-archives {
-
-}
-
-.archives {
-
-}
-
-.next {
-
-}
-
-.indicator {
-
-}
-
-.viewall {
-
-}
-
-.design-resources {
-
-}
-
-#jar-resources {
-
-}
-
-.resources {
-
-}
-
-.view-css {
-
-}
-
-.css-resources {
-
-}
-
-.jar-submit {
-
-}
-
-.extraDiv1 {
-
-}
-.extraDiv2 {
-    
-}
-.extraDiv3 {
-    
-}
-.extraDiv4 {
-    
-}
-.extraDiv5 {
-    
-}
-.extraDiv6 {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    background-color: #998888;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
 }
